@@ -28,10 +28,15 @@ public class MainActivity extends AppCompatActivity {
         myPeople.add("Pessoa 0");
         myPeople.add("Pessoa 1");
         myPeople.add("Pessoa 2");
-        myPeople.add("Pessoa 4");
+        myPeople.add("Pessoa 3");
+        myPeople.add("Pessoa 5");
         myPeople.add("Pessoa 6");
         myPeople.add("Pessoa 7");
-        myPeople.add("Pessoa 8");
+        myPeople.add("Dante");
+
+        for (String s: myPeople){
+            Log.i("Pessoa", s);
+        }
 
 
 
